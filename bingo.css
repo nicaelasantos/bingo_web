@@ -1,0 +1,121 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #800080; /* Roxo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color: #0000FF; /* Azul */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#area_cartelas {
+    width: 70%;
+    height: 75vh;
+    background-color: #fa0606; /* Preto */
+}
+
+#cartelas,
+#numeros {
+    width: 100%;
+    height: 20%;
+    background-color: #FFFFFF; /* Branco */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#corpoCartelas {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#corpoNumeros {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#corpoNumeros span {
+    background-color: #FF69B4; /* Rosa */
+    color: black;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.cartela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.cartela h4 {
+    margin-bottom: 5px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #FFFFFF; /* Branco */
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#area_numeros {
+    width: 30%;
+    height: 75vh;
+    background-color: #4169E1; /* Azul-escuro */
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: #FFFF00; /* Amarelo */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
